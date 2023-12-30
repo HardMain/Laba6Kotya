@@ -35,7 +35,7 @@ namespace Laba_6
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
-                    matrix[i, j] = random.Next(-50, 50);
+                    matrix[i, j] = (double)(random.Next(-500, 500)) / 10;
             }
         }
         public void ManualFill()

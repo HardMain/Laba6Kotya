@@ -27,9 +27,9 @@ namespace Laba_6
         }
         public void PreparedLines()
         {
-            string str1 = "gkeog mql? k g;gig. adw; gkdi dja, gj.,g oqt gotg.";
-            string str2 = "gkr ggg. wi! rg wotkdo. w vmdn a;ptkw fg,dj qwt. t qritwq.";
-            string str3 = "tigkawg,wp gjrw s. q[wa gitkv fqw! it fksaw fj;gr,aj.";
+            string str1 = "gkeog mql? k g;gig. adw; gkdi dja, gj.,g oqt gotg. shreh";
+            string str2 = "gkr ggg. wi! rg wotkdo. w vmdn a;ptkw fg,dj qwt. t qritwq. hsrsh";
+            string str3 = "tigkawg,wp gjrw s. q[wa gitkv fqw! it fksaw fj;gr,aj. fgmg";
 
             string msg = $"\tВыберите строку из заготовленных\n1. {str1}\n\n2. {str2}\n\n3. {str3}\n\n-> ", errorMsg = "\nТакого пункта меню не существует!\n";
             bool notExit = true;
@@ -84,7 +84,7 @@ namespace Laba_6
             string tempStr = "";
             for (int i = 0; i < sentences.Length; i++)
             {
-                if (i != 0 && i != sentences.Length - 2)
+                if (i != 0 && i != sentences.Length - 1)
                     tempStr += sentences[i];
             }
             str = tempStr;

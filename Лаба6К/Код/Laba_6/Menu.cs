@@ -45,7 +45,7 @@ namespace Laba_6
         }
         static public void choiceFill(Matrix matrix)
         {
-            string msg = "\tВыберите как заполнить рваный массив\n1.Вручную\n2.Рандомно\n-> ", errorMsg = "\nТакого пункта меню не существует!\n";
+            string msg = "\tВыберите как заполнить матрицу\n1.Вручную\n2.Рандомно\n-> ", errorMsg = "\nТакого пункта меню не существует!\n";
             bool notExit = true;
 
             do
